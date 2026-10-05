@@ -1,0 +1,13 @@
+# Titkok: jelszavak, kulcsok soha nem kerülnek Gitbe
+.env
+
+# Python virtuális környezet és cache: gépenként újragenerálható
+.venv/
+__pycache__/
+
+# Generált adatok: a szkriptek bármikor újra előállítják
+data/raw/*
+!data/raw/.gitkeep
+
+# Naplófájlok
+logs/
